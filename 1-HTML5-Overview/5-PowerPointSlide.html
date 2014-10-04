@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Problem 4. HTML Lists</title>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!-- I use style for a quick overview -->
+		<style>
+			body{
+				background-color: black;
+				background-image: url("img/background.png")	;
+				background-repeat: no-repeat;
+				color:#FFFFFF; 
+				font-family: 'Open Sans', sans-serif;
+				
+			}
+			#logo{
+				
+				float: right;
+				margin-right: 5%;
+			}
+			ul, h1{
+				color: #f4c266;
+			}
+			div.box-background{
+				
+				width: 80%;
+				border: 1px solid #7a766b;
+				background-color: rgba(255,255,255,0.2);
+				padding: 0.5%;
+				color: #FFFFFF;
+				font-family: 'Inconsolata' ;
+			}
+			.whiteText{
+				color: white;
+				font-family: 'Inconsolata' ;
+			}
+			#footer{
+				float: right;
+			    border: 1px dashed #7a766b;
+				font-size: 50%;
+				color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<span id="logo"><img src="img/logo.png"></span>			
+		<span><h1>Headings and Paragraphs</h1></span>
+		
+		<ul type="square">
+			<li><h2><span class="whiteText"> Heading Tags: </span>&lt;h1&gt;<span class="whiteText"> - </span>&lt;h6&gt;</h2></li>
+				<div class="box-background">
+					&lt;h1&gt;Heading 1&lt;/h1&gt;<br />
+					&lt;h2&gt;Sub heading 2&lt;/h2&gt;<br />
+					&lt;h3&gt;Sub heading 3&lt;/h3&gt;<br />
+				</div>
+			<li><h2><span class="whiteText"> Paragraph Tags: </span>&lt;p&gt;</h2></li>
+				<div class="box-background">
+					&lt;p&gt;This is my first paragraph&lt;/p&gt;<br />
+					&lt;p&gt;This is my second paragraph&lt;/p&gt; <br />
+				
+				</div>
+			<li><h2><span class="whiteText"> Heading Tags: </span>&lt;h1&gt;<span class="whiteText"> - </span>&lt;h6&gt;</h2></li>
+				<div class="box-background">
+					&lt;div style="background: skyblue;"&gt; <br />
+					&nbsp;&nbsp; This is a div <br />
+					&lt;/div&gt;<br />
+				</div>
+		</ul>
+				<div id ="footer" > 
+					22 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+				</div>
+	</body>
+</html>

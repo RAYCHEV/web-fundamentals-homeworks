@@ -1,0 +1,15 @@
+body{
+	background: #add8e6
+}
+img{
+	width: auto;
+	height: auto;
+	max-width: 160px;
+	border: 1px solid black;
+}
+.textOne{
+	font-style: italic;
+}
+.textTwo{
+	text-indent: 4%;
+}
