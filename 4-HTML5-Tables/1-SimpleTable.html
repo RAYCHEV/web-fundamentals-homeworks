@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>problem 1. Simple Table</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #container{
+                border: 1px solid black;
+                width: 400px;
+                
+                margin: 10% auto auto auto;
+            }
+            th{
+                padding-bottom: 40px;
+                text-align: left;
+                font-family: consolas;
+            }
+            img{
+                height: 50%;
+                margin: 0 8px;
+            }
+            #boldText{
+                font-weight: bold;
+                 
+            }
+            #tableText{
+            padding-left: 10px;
+            vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2"><h1>Software University</h1></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/SoftUni-Logo.png" alt="SoftUni logo"> </td>
+                        <td id="tableText">
+                            <span id="boldText">Accessible and high quality software education.</span><br />
+                            <span id="normalText">Our mission is to make people we train true professionals in the
+                            software industry and support them in finding emploiment.</span>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
